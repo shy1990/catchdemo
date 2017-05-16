@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class CatchdemoApplication {
 
 	@RequestMapping("/")
-	String home() {
+	public String home() {
 		return "index";
 	}
 
